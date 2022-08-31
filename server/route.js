@@ -3,6 +3,8 @@ import { getUsers, addUser, getUserById, editUser, deleteUser } from '../control
 
 const router = express.Router();
 
+// all apu route for control 
+
 router.get('/', getUsers);
 router.post('/add', addUser);
 router.get('/:id', getUserById);
